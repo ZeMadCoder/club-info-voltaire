@@ -2,6 +2,7 @@
 <script>
 	import { Avatar } from '@skeletonlabs/skeleton'
 	import ZeMadCoder from '$lib/images/ZeMadCoder.jpg'
+	import MonImage from '$lib/images/monimage.jpg'
 	import { toastStore } from '@skeletonlabs/skeleton'
 
 	function triggerToast() {
@@ -38,6 +39,12 @@
 		<div>
 			Avec :
 			<ul class="list">
+				<li>
+					<div class="flex items-center justify-center">
+						<Avatar class="mr-4" src={ZeMadCoder} />
+						<span>ZeMadCoder</span>
+					</div>
+				</li>
 				<li>
 					<div class="flex items-center justify-center">
 						<Avatar class="mr-4" src={ZeMadCoder} />
