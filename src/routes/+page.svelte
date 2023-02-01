@@ -2,7 +2,6 @@
 <script>
 	import { Avatar } from '@skeletonlabs/skeleton'
 	import ZeMadCoder from '$lib/images/ZeMadCoder.jpg'
-	import MonImage from '$lib/images/monimage.jpg'
 	import { toastStore } from '@skeletonlabs/skeleton'
 
 	function triggerToast() {
